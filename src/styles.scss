@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+// Import Foundation for Sites
+@import '~foundation-sites/scss/foundation';
+// ---- Global styles ----
+@include foundation-global-styles;
+
+@include foundation-xy-grid-classes;
+@include foundation-top-bar;
